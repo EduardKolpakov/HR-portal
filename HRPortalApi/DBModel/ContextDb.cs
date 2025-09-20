@@ -9,10 +9,11 @@ namespace HRPortalApi.DBModel
         {
 
         }
-        public DbSet<Student> Student { get; set; }
-        public DbSet<Company> Company { get; set; }
-        public DbSet<Vacancy> Vacancy { get; set; }
-        public DbSet<User> User { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<Vacancy> Vacancies { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Notifications> Notifications { get; set; }
+        public DbSet<VacancyResponses> VacancyResponses { get; set; }
     }
 }
